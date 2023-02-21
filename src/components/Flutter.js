@@ -155,6 +155,7 @@ export function Flutter() {
             {images.map((q, idx) => (
               <div
                 aria-hidden="true"
+                key={idx}
                 data-testid="cardlink-pilihan-kitabisa"
                 className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
               >

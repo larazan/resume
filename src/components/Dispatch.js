@@ -27,7 +27,7 @@ export function Dispatch() {
   return (
     <>
       <div id="template_horizontal-image-slider">
-        <div className="default-banner-slider relative pt-[16px] mb-[1em] h-full">
+        <div className="default-banner-slider relative pt-[16px] mb-[1em]  md:h-full">
           <Swiper
             modules={[Pagination, A11y]}
             slidesPerView={1}
@@ -38,43 +38,43 @@ export function Dispatch() {
             pagination={{ clickable: true }}
           >
             <SwiperSlide>
-              <Image src={dispatch1} />
+              <Image src={dispatch1} className="w-20 md:w-full object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch2} />
+              <Image src={dispatch2} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch3} />
+              <Image src={dispatch3} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch4} />
+              <Image src={dispatch4} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch5} />
+              <Image src={dispatch5} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch6} />
+              <Image src={dispatch6} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch7} />
+              <Image src={dispatch7} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch8} />
+              <Image src={dispatch8} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch9} />
+              <Image src={dispatch9} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch10} />
+              <Image src={dispatch10} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch11} />
+              <Image src={dispatch11} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch12} />
+              <Image src={dispatch12} className="object-cover" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={dispatch13} />
+              <Image src={dispatch13} className="object-cover" alt="" />
             </SwiperSlide>
            
           </Swiper>

@@ -75,8 +75,8 @@ const index = () => {
         </div>
         <div className="flex min-h-screen">
           <div className="flex flex-row w-full">
-            <div className="flex flex-1 flex-col items-center justify-center px-10 relative">
-              <div className="flex flex-1 flex-col max-w-md md:max-w-2xl bg-white pb-18">
+            <div className="flex flex-1 flex-col items-center justify-center md:px-10 relative">
+              <div className="flex flex-1 flex-col w-full md:max-w-2xl bg-white pb-18">
                 {/*  */}
                 <div class="mt-8 px-4 pb-4">
                   <div

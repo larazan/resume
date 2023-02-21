@@ -35,34 +35,34 @@ export function News() {
             pagination={{ clickable: true }}
           >
             <SwiperSlide>
-              <Image src={leaflet1} />
+              <Image src={leaflet1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet2} />
+              <Image src={leaflet2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet3} />
+              <Image src={leaflet3} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet4} />
+              <Image src={leaflet4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet5} />
+              <Image src={leaflet5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet6} />
+              <Image src={leaflet6} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet7} />
+              <Image src={leaflet7} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet8} />
+              <Image src={leaflet8} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet9} />
+              <Image src={leaflet9} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={leaflet10} />
+              <Image src={leaflet10} alt="" />
             </SwiperSlide>
            
           </Swiper>

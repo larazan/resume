@@ -32,25 +32,25 @@ export function Marketplace() {
             pagination={{ clickable: true }}
           >
             <SwiperSlide>
-              <Image src={marketplace1} />
+              <Image src={marketplace1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace2} />
+              <Image src={marketplace2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace3} />
+              <Image src={marketplace3} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace4} />
+              <Image src={marketplace4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace5} />
+              <Image src={marketplace5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace6} />
+              <Image src={marketplace6} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={marketplace7} />
+              <Image src={marketplace7} alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
