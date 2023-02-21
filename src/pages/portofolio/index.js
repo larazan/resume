@@ -176,7 +176,7 @@ const index = () => {
                         </div>
                       </div>
                     </div>
-                    <a target="_blank" href={foodLink}>
+                    <a target="_blank" href={foodLink} rel="noopener noreferrer">
                       <div className="cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -318,7 +318,7 @@ const index = () => {
                         </div>
                       </div>
                     </div>
-                    <a target="_blank" href={ecommLink}>
+                    <a target="_blank" href={ecommLink} rel="noopener noreferrer">
                       <div className="cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -389,7 +389,7 @@ const index = () => {
                         </div>
                       </div>
                     </div>
-                    <a target="_blank" href={dispatchLink}>
+                    <a target="_blank" href={dispatchLink} rel="noopener noreferrer">
                       <div className="cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -460,7 +460,7 @@ const index = () => {
                         </div>
                       </div>
                     </div>
-                    <a target="_blank" href={leafletLink}>
+                    <a target="_blank" href={leafletLink} rel="noopener noreferrer">
                       <div className="cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -531,7 +531,7 @@ const index = () => {
                         </div>
                       </div>
                     </div>
-                    <a target="_blank" href={marketplaceLink}>
+                    <a target="_blank" href={marketplaceLink} rel="noopener noreferrer">
                       <div className="cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

@@ -188,7 +188,7 @@ export default function Home() {
               <section className="mb-4.5 break-inside-avoid">
                 <header>
                   <h3 className="text-lg font-semibold text-gray-700 leading-snugish">
-                    <a href="https://www.wiklan.com/" className="group">
+                    <a href="https://www.wiklan.com/" className="group" rel="noopener noreferrer">
                       Wiklan.com
                       <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                         ↗
@@ -254,7 +254,7 @@ export default function Home() {
             <section className="mb-4.5 break-inside-avoid">
               <header>
                 <h3 className="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a target="_blank" href={quotaLink} className="group">
+                  <a target="_blank" href={quotaLink} className="group" rel="noopener noreferrer">
                     Qoutas
                     <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                       ↗
@@ -273,7 +273,7 @@ export default function Home() {
             <section className="mb-4.5 break-inside-avoid">
               <header>
                 <h3 className="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a target="_blank" href={marketplaceLink} className="group">
+                  <a target="_blank" href={marketplaceLink} className="group" rel="noopener noreferrer">
                     Marketplace
                     <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                       ↗
@@ -292,7 +292,7 @@ export default function Home() {
             <section className="mb-4.5 break-inside-avoid">
               <header>
                 <h3 className="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a target="_blank" href={leafletLink} className="group">
+                  <a target="_blank" href={leafletLink} className="group" rel="noopener noreferrer">
                   Map News UI UX
                     <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                       ↗
@@ -311,7 +311,7 @@ export default function Home() {
             <section className="mb-4.5 break-inside-avoid">
               <header>
                 <h3 className="text-lg font-semibold text-gray-700 leading-snugish">
-                  <a target="_blank" href={dispatchLink} className="group">
+                  <a target="_blank" href={dispatchLink} className="group" rel="noopener noreferrer">
                   Asia Movie DB 
                     <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                       ↗
@@ -459,7 +459,7 @@ export default function Home() {
                     </a>
                   </li> */}
                   <li className="mt-1.5 leading-normal text-gray-700 text-md">
-                    <a href="https://github.com/webpraktikos" className="group">
+                    <a href="https://github.com/larazan" className="group" rel="noopener noreferrer">
                       github.com/larazan
                       <span className="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">
                         ↗
